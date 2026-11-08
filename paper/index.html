@@ -25,6 +25,12 @@
   <p>Password guessing is a core tool for evaluating password strength and identifying weak credentials. This paper studies a GAN-based password-guessing approach built on WGAN-GP and a modified PassGAN architecture. It compares hit rates against the original PassGAN baseline on the RockYou dataset, analyzes how password length and letter–digit composition affect guessing success, and identifies early stopping as a practical training strategy. The paper concludes with user-facing recommendations for stronger passwords, including longer passwords, mixed character classes, avoiding reuse, and two-factor authentication.</p>
   <h2>Methods</h2>
   <p>The model extends PassGAN with an additional generator linear block and batch normalization before each ReLU in the residual blocks. Training and evaluation were run in Google Colab; performance was measured by hit rate on held-out password sets.</p>
+  <h2>Related writing</h2>
+  <ul>
+    <li><a href="https://mp.weixin.qq.com/s/OKx9k_cfzsyg5XxPjnytVg">Mathematical Notes I: Linear Algebra and the Spectral Theorem</a> (in Chinese)</li>
+    <li><a href="https://mp.weixin.qq.com/s/Jd7KaxE81j6B76hnWnsSLg">Mathematical Notes II: The Spectral Theorem, Differential Equations, and Laplace Transforms</a> (in Chinese)</li>
+  </ul>
+
   <p class="note">Independent research paper, 2024. This page hosts a reformatted academic edition; the results and claims are unchanged. <a href="../files/Tianrui_Gu_Password_Guessing_2024_Original.pdf">Original 2024 submission (unformatted PDF)</a>. For questions, contact <a href="mailto:tg297@duke.edu">tg297@duke.edu</a>.</p>
 </body>
 </html>
